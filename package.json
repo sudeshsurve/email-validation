@@ -1,13 +1,27 @@
 {
-  "name": "email-validation",
+  "name": "npst-email-validation",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "typings": "index.d.ts",
+  "keywords": [
+    "email",
+    "validation",
+    "validator",
+    "syntax",
+    "company",
+    "work"
+  ],
   "author": "sudesh surve",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "email-validator": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudeshsurve/email-validation.git"
+  }
 }
